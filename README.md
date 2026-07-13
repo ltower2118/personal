@@ -1,63 +1,16 @@
-정전시 행동요령
+# React + Vite
 
-<정전시>
-1. 현장부저 OFF
-2. LBS 한전 전원 확인(3상표시램프 OFF여부확인)
-3. MAIN VCB OFF(OPEN) 상태 확인
-  - VCB계전기 전압.전류확인
-4. ATS 절체확인(한전->발전)
-5. 발전기 정상가동 확인(한전->발전)
-   - 미가동시 수동가동
-6. ACB 3개소(고층부,저층부, 비상동력 ) 확인
-7. 고층부, 저층부 MCCB차단기 확인
-8. 한전상황실 연락 확인
-9. 엘리베이터 상황 확인,기타 설비확인
-10. 비상연락망 전파
+This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
-<복전시>
-1.한전 상항실 연락 정상투입여부 시간확인
-2. LBS 한전 전원 복전확인(3상표시램프 ON여부확인)
-3. MAIN VCB 계전기 전압 정상확인
-4. VCB 2개소(고층부,저층부) 차단기 OFF(OPEN)
-5. 고층부 저층부 MCCB차단기 OFF
-6. MCCB 계전기 UVR 리셋
-7. 메인 VCB 투입(CLOSE)
-8. ATS 절체 확인(발전->한전)
-9. ACB 2개소 투입(CLOSE)
-10. 고층부, 저층부 각 MCCB 차단기 ON
-11. 엘리베이터,방재실(수신반,방송시스템등), 펌프실(MCC반,수전펌프,분리수거장등), 정화조 ,주차시스템 이상유무확인
-12. 보고서 작성
+Currently, two official plugins are available:
 
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
+## React Compiler
 
-긴급연락처
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
+## Expanding the Oxlint configuration
 
-한국전력
-공사
-긴급
-113
-
- 배전운영실
-02-2290-5268~9
-정전상황확인
-광진성동지사
-02-2290-5261
-
-한국전기
-안전공사
-서울동부지사
-02-6488-6400
-전기시설
-긴급고장
-삼원전기안전관리
-직무고시
-010-5223-6789
-전기안전관리
-TK(성우)엘리베이터
-고객센터
-2242-0110010-7110-9112
-승강기안전관리
-
-
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
